@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricokahler/next-plugin-preval.git"
+    "url": "https://github.com/8ballsnl/next-plugin-preval"
   },
   "license": "MIT",
   "author": {
@@ -29,11 +29,11 @@
     "build-example-app": "./scripts/build-example-app"
   },
   "dependencies": {
-    "@babel/core": "^7.12.10",
+    "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.12.11",
     "@babel/register": "^7.13.16",
     "babel-plugin-module-resolver": "^4.1.0",
-    "loader-utils": "^2.0.0",
+    "loader-utils": "^3.2.1",
     "regenerator-runtime": "^0.13.7",
     "require-from-string": "^2.0.2",
     "tsconfig-paths": "^3.9.0",
