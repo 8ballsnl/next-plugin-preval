@@ -25,7 +25,7 @@
     "semantic-release": "semantic-release",
     "build": "./scripts/build",
     "lint": "eslint src",
-    "prepare": "npm run build",
+    "prepare": "pnpm run build",
     "build-example-app": "./scripts/build-example-app"
   },
   "dependencies": {
@@ -37,7 +37,7 @@
     "regenerator-runtime": "^0.13.7",
     "require-from-string": "^2.0.2",
     "tsconfig-paths": "^3.9.0",
-    "webpack": "^5.56.0"
+    "webpack": "^5.76.0"
   },
   "devDependencies": {
     "@babel/cli": "7.22.5",
